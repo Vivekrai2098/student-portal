@@ -1,0 +1,88 @@
+/*this is the nav part*/
+.navbar{
+	z-index: 1000;
+	background-color:#4fb9e3;
+}
+#hello{
+	/*height: 100px;
+	width: 170px;*/
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+li.nav-item:nth-child(n) > a:nth-child(n){
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 0.9rem;
+}
+li.nav-item:nth-child(n) > a:nth-child(n):hover{
+	color: white;
+	border-bottom: 2px solid white;
+
+}
+
+#lo{
+	border-radius: 30px;
+	width: 90px;
+	margin-right: 20px;
+	height: 110;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+
+}
+#lo:hover{
+	background-color: #4fb9e3;
+	box-shadow: 2px 3px 4px 3px black;
+	color: white;
+
+
+}
+/*this is the end nav part*/
+/*this is the image part */
+.img{
+	background-image: url("2.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+/*this is end part of image*/
+/*this is the button register*/
+.hearderset{
+	padding-top: 250px;
+	box-sizing: border-box;
+}
+.hearderset h1{
+	font-size: 44px;
+	font-weight: bold;
+}
+.hearderset h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+/*button end register */
+/*this is the text of second*/
+#tex1{
+	margin-top: 70px;
+	color: blacks;
+	text-transform:capitalize;
+	font-weight: bold;
+
+}
+/*this is the thired part*/
+#thired{
+	background-color: #f6f6f6;
+}
+#text3{
+	margin-top: 60%;
+}
+html{
+	scroll-behavior: smooth;
+}
